@@ -36,7 +36,7 @@ This project is a practical exploration of design patterns, applied to a restaur
 The following UML diagram illustrates the interaction between various classes and design patterns within the system. It showcases how different patterns like Singleton, Factory, Builder, Strategy, Composite, Adapter, Decorator, and Observer are applied to solve specific problems.
 
 ### **UML Diagram**
-[Insert UML Diagram Here]
+![Project Architecture](png/UML.png)
 
 ## **Future Work**
 
