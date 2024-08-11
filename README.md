@@ -50,8 +50,8 @@ The following UML diagram illustrates the interaction between various classes an
 ## **Contribution**
 
 - **Contributors:**
-  - **Farid Ghorbani:** Contributor
-  - **Gunjid Aurar:** Contributor
+  - **[Farid Ghorbani](https://github.com/Faridghr):** Contributor
+  - **[Gunjid Aurar](https://github.com/gunjitNEU):** Contributor
 
 This project is open for contributions! If you're interested in extending the design pattern solutions or exploring new patterns, feel free to fork the repository and submit pull requests. Your contributions can help make this project even more useful for educational and practical purposes.
 
