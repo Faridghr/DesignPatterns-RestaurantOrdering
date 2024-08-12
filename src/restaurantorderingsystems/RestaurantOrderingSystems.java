@@ -50,10 +50,19 @@ public class RestaurantOrderingSystems {
         System.out.println("\nAdded ExtraCheese to menu items \'Burger Combo\'\n");
 	// Decorate the combo with extra cheese
         MenuItemAPI comboWithCheese = new ExtraCheeseDecorator(combo); 
-        
 
         // Create an order and add the combo with cheese
         Order order = new Order();
+
+        // Add a single burger to the order
+        MenuItemAPI burger = restaurant.getItemById(2); // Get the Cheese Burger
+        System.out.println("\nAdding " + burger.getName() + " to the order.");
+        order.addItemToOrder(burger);
+
+        // Remove the burger from the order
+        System.out.println("Removing " + burger.getName() + " from the order.");
+        order.removeItemFromOrder(burger);
+
         order.addItemToOrder(comboWithCheese);
 	
 	// Add observers
