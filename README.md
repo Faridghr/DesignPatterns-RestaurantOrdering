@@ -59,3 +59,5 @@ This project is open for contributions! If you're interested in extending the de
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## YouTube Link
+You can also watch the video presentation on [YouTube](https://youtu.be/dOjDfHnG3tM).
