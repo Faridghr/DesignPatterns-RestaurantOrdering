@@ -24,7 +24,7 @@ public class RestaurantOrderingSystems {
         FriesBuilderFactoryAPI friesFactory = SingletonFriesBuilderFactoryEnum.INSTANCE.getFriesBuilderFactory();
 
 	restaurant.addMenuItem(friesFactory.getFriesBuilder().setId(4).setName("French Fries").setCost(3.99).build());
-	restaurant.addMenuItem(friesFactory.getFriesBuilder().setId(5).setName("Classic Fries").setCost(2.99).build());
+	restaurant.addMenuItem(friesFactory.getFriesBuilder().setId(5).setName("Chesse Fries").setCost(4.99).build());
         
 	// Create Drinks Items and Add to Restaurant Menu
         DrinkBuilderFactoryAPI drinkFactory = SingletonDrinkBuilderFactoryEnum.INSTANCE.getDrinkBuilderFactory();
@@ -35,8 +35,11 @@ public class RestaurantOrderingSystems {
 
         // Create a combo meal
         ComboMeal combo = new ComboMeal(9, "Burger Combo");
+        // adding the burger to the combo
         combo.add(restaurant.getItemById(1));
+        //adding french fries to the combo
         combo.add(restaurant.getItemById(4));
+        //adding drink to the combo
         combo.add(restaurant.getItemById(8));
         restaurant.addMenuItem(combo);
 
